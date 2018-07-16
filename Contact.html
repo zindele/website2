@@ -1,5 +1,9 @@
 
 <html>
+<head>
+     <link rel="stylesheet" href="contact.css" type="text/css" />
+</head>
+<body>
 <h1>Contact us</h1>
 <form action="success.html" method="post" onsubmit="return ValidateForm(this);">
 
@@ -7,59 +11,59 @@
 
 function ValidateForm(frm)
    {
-      if (frm.Name.value == "") 
-         { 
-             alert('Name is required.'); 
+      if (frm.Name.value == "")
+         {
+             alert('Name is required.');
 
-                 frm.Name.focus(); 
-                  return false; 
+                 frm.Name.focus();
+                  return false;
    }
 
-if (frm.FromEmailAddress.value == "") 
-{ 
-  alert('Email address is required.'); 
-      frm.FromEmailAddress.focus(); 
+if (frm.FromEmailAddress.value == "")
+{
+  alert('Email address is required.');
+      frm.FromEmailAddress.focus();
            return false; }
 
 if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1)
-  { 
-   alert('Please enter a valid email address.'); 
-   frm.FromEmailAddress.focus(); 
+  {
+   alert('Please enter a valid email address.');
+   frm.FromEmailAddress.focus();
    return false;
   }
-if (frm.Comments.value == "") 
+if (frm.Comments.value == "")
  {
- alert('Please enter comments or questions.'); 
-    frm.Comments.focus(); return false; 
+ alert('Please enter comments or questions.');
+    frm.Comments.focus(); return false;
  }
-return true; 
-
+return true;
+<img src="ayya.jpg" alt="ayya.jpg">
 }
 </script>
- 
+
 <table style="width:550px;border:0;" cellpadding="8" cellspacing="0">
-<tr> 
+<tr>
     <td>
          <label for="Name">Name*:</label>
-    </td> 
+    </td>
 <td>
 <input name="Name" type="text" maxlength="60" style="width:250px;" />
-</td> 
-   </tr> <tr> 
+</td>
+   </tr> <tr>
 <td>
 <label for="PhoneNumber">Phone number:</label>
 </td>
     <td>
      <input name="PhoneNumber" type="text" maxlength="43" style="width:250px;" />
-</td> 
-</tr> <tr> 
+</td>
+</tr> <tr>
 <td>
 <label for="FromEmailAddress">Email address*:</label>
-</td> 
+</td>
    <td>
       <input name="FromEmailAddress" type="text" maxlength="90" style="width:250px;" />
-   </td> 
-    </tr> <tr> 
+   </td>
+    </tr> <tr>
 <td>
     <label for="Comments">Comments*:</label>
 </td> <td>
@@ -75,4 +79,5 @@ return true;
 </td> </tr>
 </table>
 </form>
+</body>
 </html>

@@ -1,0 +1,27 @@
+h1{
+        color:purple;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .2em 0;
+        font-size: 2em;
+}
+h2{
+  color:purple;
+  font-size: 1.5em;
+}
+p{
+  color:black;
+  font-size:1.1em;
+}
+h1{
+  font-size: 2.3em;
+  font-style:normal;
+}
+h3{
+  font-size: 4em;
+  color:purple;
+  font-style:normal;
+}
+body{
+  background-image:url('pink.jpg'); 
+}

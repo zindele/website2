@@ -1,25 +1,27 @@
-p{ line-height: 1em; }
+lp{ line-height: 3em;
+font-size:1.5em;
+}
 
 
 h1{
-        color:green;
+        color:purple;
 	font-weight: normal;
 	line-height: 1.1em;
 	margin: 0 0 .2em 0;
         font-size: 1.7em;
 }
 h2{
-        color: red;
-	font-weight: normal;
+        color:purple;
+	font-weight:big;
 	line-height: 1.1em;
 	margin: 0 0 .5em 0;
-        font-size: 1.5em; 
+        font-size: 4em;
 }
 
 body{
     font-family: Arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
 }
-#page{ margin: 20px; }
+#page{ margin: 25px; }
 
 #logo{
 	width: 35%;
@@ -41,7 +43,7 @@ body{
 
 			#nav ul li a{
 				padding: 20px;
-				background: orange;
+				background: red;
 				color: white;
 			}
 			#nav ul li a:hover{
@@ -52,12 +54,12 @@ body{
 
 #content{
 	margin: 30px 0;
-	background: white;
+	background: pink;
 	padding: 20px;disp
 	clear: both;
 }
 #footer{
-	border-bottom: 1px #ccc solid;
+	border-bottom: 5px #ccc solid;
 	margin-bottom: 10px;
 }
 	#footer p{
@@ -68,3 +70,17 @@ body{
 	}
 #content,
 ul li a{ box-shadow: 0px 1px 1px #999; }
+
+body {
+  background-image:url('vuya.jpg');
+}
+h2{
+  color:red;
+
+}
+p{
+  font-size:1.1em;
+}
+p{
+  font-size: 1.5em;
+}
